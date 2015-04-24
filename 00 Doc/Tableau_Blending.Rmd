@@ -1,0 +1,44 @@
+---
+title: "DV_TableauProject3 - Blending in Tableau "
+author: "Jorge Paramo, Aldo Carranza, Kevin Nievera"
+date: "Spring 2015"
+output: html_document
+---
+
+> *Summary*: In this project, the data sets used for this assignment are from a previous project done on life expectancy and health expenditures by country. We recreated some plots originally done in R and with the ggplot package using Tableau software. 
+
+* Data set can be found on the World Health Organization website
+    + Life Expectancy: http://apps.who.int/gho/data/view.main.680
+    + Health Expenditures: http://apps.who.int/gho/data/view.main.1920ALL?lang=en
+
+Required package to create this html: *knitr*
+Required software to create plots: *Tableau 8.0*
+
+```{r,message=FALSE, echo=FALSE}
+require("knitr")
+```
+
+###Blending in Tableau###
+> *Description*: 
+
+###Life Expectancy vs. Health Expenditures per country in 2012 ###
+> *Description*:
+
+![](./LifeExpect_vs_HealthExpend.png) 
+
+###Average Expenditures per World Health Organization Region (WHO-Region)###
+> *Description*: In this plot, we show World Bank income groups, the countries belonging in those groups, the countries' life expectancies in 2012, the maximum life expectancy along the pane, and the differences in life expectancy along the pane.
+
+![](./AVG_HealthExpend_per_WHO.png) 
+
+###Crosstab for Nth Value###
+> *Description*: In this crosstab, we tried to show the 2nd life expectancy for each year available in the data for each country.
+
+*Last Plot Picture Space*
+
+###Crosstab for Cumulative Distribution###
+> *Description*: .
+
+
+![](./LE_HE_map.png)
+
