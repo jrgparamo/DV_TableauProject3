@@ -27,7 +27,7 @@ require("knitr")
 ![](./LifeExpect_vs_HealthExpend.png) 
 
 ###Average Expenditures per World Health Organization Region (WHO-Region)###
-> *Description*: In this plot, we show World Bank income groups, the countries belonging in those groups, the countries' life expectancies in 2012, the maximum life expectancy along the pane, and the differences in life expectancy along the pane.
+> *Description*: In this plot, we show World Bank income groups, the countries belonging in those groups, the countries' average health expenditures in 2012. Here we see that the Europe region is the region that spend the most on healthcare.
 
 ![](./AVG_HealthExpend_per_WHO.png) 
 
