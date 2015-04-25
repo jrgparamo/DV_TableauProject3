@@ -31,10 +31,10 @@ require("knitr")
 
 ![](./AVG_HealthExpend_per_WHO.png) 
 
-###Title?###
-> *Description*: In this crosstab, we tried to show the 2nd life expectancy for each year available in the data for each country.
+###Average Life Expectancies per World Health Organization Region (WHO-Region)###
+> *Description*: We show a bar graph of average life expectancy of each WHO-Region, calculated by the life expectancies of the countries in each WHO-Region. This is a summary statistic that we can use to compare the state of WHO-Regions.
 
-*Last Plot Picture Space*
+![](./AVG_LePerWHO.png) 
 
 ###Average Life Expectancies per country with color coded Health Expenditures###
 > *Description*: This plot can help visualize which country spends the most on healthcare, and one can see that health spending does not necessarily equal a longer life per capita.
